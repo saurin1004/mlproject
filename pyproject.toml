@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlproject"
+version = "0.0.1"
+authors = [
+    {name = "Saurin Prajapati", email = "spraja14@asu.edu"},
+]
+description = "My package's description"
+readme = "README.md"
+dependencies = [
+    'pandas', 
+    'seaborn', 
+    'numpy',
+]
